@@ -1,0 +1,74 @@
+{
+  "format": "alignment",
+  "version": "0.4",
+  "groups": [
+    {
+      "type": "translation",
+      "meta": {
+        "creator": "Mission Mutual",
+        "conformsTo": "0.4",
+        "llm": {
+          "provider": "gloo",
+          "model": "gloo-google-gemini-3.7-flash",
+          "reasoning_effort": "low"
+        },
+        "nonEquivalent": {
+          "source": [
+            "230090030021|אֶת",
+            "230090030052|אֵת",
+            "230090100031|אֶת",
+            "230090100072|אֶת",
+            "230090120062|אֶת",
+            "230090160082|אֶת",
+            "230090160102|אֶת"
+          ],
+          "target": [
+            "23009008001|主",
+            "23009008002|使",
+            "23009008003|一",
+            "23009008004|言",
+            "23009008005|入於",
+            "23009008006|雅各",
+            "23009008007|家",
+            "23009008009|落",
+            "23009008010|於",
+            "23009008011|以色列",
+            "23009008012|家"
+          ]
+        }
+      },
+      "documents": [
+        {
+          "scheme": "BCVWP|token-string",
+          "docid": "WLCM"
+        },
+        {
+          "scheme": "BCVWP|token-string",
+          "docid": "CUV"
+        }
+      ],
+      "roles": [
+        "source",
+        "target"
+      ],
+      "records": [
+        {
+          "source": [
+            "230090140052|רֹאשׁ"
+          ],
+          "target": [
+            "23009014010|頭"
+          ]
+        },
+        {
+          "source": [
+            "230090140102|זָּנָב"
+          ],
+          "target": [
+            "23009014012|尾"
+          ]
+        }
+      ]
+    }
+  ]
+}

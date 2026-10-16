@@ -1,0 +1,78 @@
+{
+  "format": "alignment",
+  "version": "0.4",
+  "groups": [
+    {
+      "type": "translation",
+      "meta": {
+        "creator": "Mission Mutual",
+        "conformsTo": "0.4",
+        "llm": {
+          "provider": "gloo",
+          "model": "gloo-google-gemini-3.7-flash",
+          "reasoning_effort": "low"
+        },
+        "nonEquivalent": {
+          "source": [
+            "190030080071|אֶת"
+          ],
+          "target": [
+            "19003002001|有許多",
+            "19003002002|人",
+            "19003002003|議論",
+            "19003002004|我",
+            "19003002005|說",
+            "19003002007|他",
+            "19003002008|得",
+            "19003002009|不",
+            "19003002010|着上",
+            "19003002011|帝",
+            "19003002012|的",
+            "19003002013|幫助",
+            "19003002016|細拉"
+          ]
+        }
+      },
+      "documents": [
+        {
+          "scheme": "BCVWP|token-string",
+          "docid": "WLCM"
+        },
+        {
+          "scheme": "BCVWP|token-string",
+          "docid": "CUV"
+        }
+      ],
+      "roles": [
+        "source",
+        "target"
+      ],
+      "records": [
+        {
+          "source": [
+            "190030040021|יְהוָה"
+          ],
+          "target": [
+            "19003004007|耶和華"
+          ]
+        },
+        {
+          "source": [
+            "190030050031|יְהוָה"
+          ],
+          "target": [
+            "19003005008|耶和華"
+          ]
+        },
+        {
+          "source": [
+            "190030080021|יְהוָה"
+          ],
+          "target": [
+            "19003008003|耶和華"
+          ]
+        }
+      ]
+    }
+  ]
+}
