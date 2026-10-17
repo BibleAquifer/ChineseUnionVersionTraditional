@@ -41980,6 +41980,15 @@
 ]
 }
 },
+"alignments/json/30-002.alignment.json": {
+"mimeType": "text/json",
+"size": 43577,
+"scope": {
+"AMO": [
+"2"
+]
+}
+},
 "alignments/json/30-003.alignment.json": {
 "mimeType": "text/json",
 "size": 36573,
